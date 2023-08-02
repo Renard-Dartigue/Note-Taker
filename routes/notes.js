@@ -7,7 +7,7 @@ notes.get('/notes' , (req, res) => {
 });
 
 notes.post('/notes', (req, res) => {
-
+    const newNote = createNewNote(req.body, allNotes);
 });
 
 module.exports = notes;
