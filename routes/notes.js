@@ -6,4 +6,8 @@ notes.get('/notes' , (req, res) => {
     res.sendFile(path.join(__dirname, '/public/notes.html'))
 });
 
+notes.post('/notes', (req, res) => {
+
+});
+
 module.exports = notes;
