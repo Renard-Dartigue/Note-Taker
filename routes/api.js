@@ -8,6 +8,6 @@ const notesRouter = require('./notes');
 const app = express();
 
 app.use('/notes', notesRouter);
-app.use('./db/store.js')
+//app.use('./db/store.js')
 
 module.exports = app;
