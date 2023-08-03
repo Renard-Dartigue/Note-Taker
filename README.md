@@ -2,7 +2,8 @@
 An application called Note Taker that can be used to write and save notes.
 
 ## Description
-This project creates a application that helps users take notes
+This project creates a application that helps users take notes. They can use the area on the right to input and title and their notes below. The plus sign on the upper right-hand corner will 
+create a new note. The left side is where the user's previous notes will apprear. 
 
 ## Installation
 git clone project to your 
